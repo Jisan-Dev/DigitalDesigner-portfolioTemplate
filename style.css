@@ -118,7 +118,7 @@ main {
 }
 
 #about-me__div-cols-wrapper {
-  border-bottom: 1px solid var(--clr-primary);
+  border-bottom: 2px solid var(--clr-primary);
   padding: 3rem 0;
   display: flex;
 }
@@ -173,8 +173,8 @@ main {
 }
 
 #whatIdo__inner-wrap {
-  border-bottom: 1px solid var(--clr-primary);
-  padding-bottom: 2rem;
+  border-bottom: 2px solid var(--clr-primary);
+  padding-bottom: 3rem;
   display: flex;
 }
 
