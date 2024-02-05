@@ -174,15 +174,20 @@ main {
 
 #whatIdo__inner-wrap {
   border-bottom: 1px solid var(--clr-primary);
-  padding-bottom: 3rem;
+  padding-bottom: 2rem;
+  display: flex;
 }
 
 .whatIdo__col1 {
   display: flex;
   justify-content: space-between;
-  width: 420px;
-  border-right: 2px solid var(--clr-primary);
+  min-width: 420px;
   padding-right: 1rem;
+  border-right: 2px solid var(--clr-primary);
+}
+
+.whatIdo__col2-gr1-line {
+  background-color: var(--clr-primary);
 }
 
 .whatIdo__col1 h3 {
@@ -196,4 +201,41 @@ main {
   font-size: 1.7075rem;
   color: var(--clr-primary);
   font-weight: 100;
+}
+
+.whatIdo__col2 {
+  display: grid;
+  grid-template-rows: 1fr 2px 1fr;
+  row-gap: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.whatIdo__col2 > div:nth-child(3) {
+  padding-left: 1rem;
+}
+.whatIdo__col2 > div:nth-child(1) {
+  padding-right: 1rem;
+}
+
+.whatIdo__col2 h2 {
+  font-size: 2.5612rem;
+  color: var(--clr-primary);
+  font-weight: 600;
+}
+
+.whatIdo__col2 p {
+  margin-top: 0.4rem;
+  font-size: 18px;
+  color: rgba(30, 30, 33, 0.7);
+  font-weight: 500;
+  line-height: 1.6em;
+}
+/* experiment */
+.whatIdo__col2 {
+  display: grid;
+  grid-template-columns: 1fr 2px 1fr;
+}
+.whatIdo__col2-hrline {
+  grid-column: 1 / span 3;
+  background-color: var(--clr-primary);
 }
