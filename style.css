@@ -3,6 +3,7 @@
 
 :root {
   --clr-primary: #1e1e21;
+  --clr-bg: #f5f3ef;
 }
 
 * {
@@ -23,7 +24,7 @@ body {
   /* height: 50%; */
   /* border: 1px solid red; */
   padding: 4rem 4rem 3rem;
-  background-color: #f5f3ef;
+  background-color: var(--clr-bg);
 }
 
 #header > nav {
@@ -106,4 +107,62 @@ body {
   width: 100%;
   height: 590px;
   background-image: url('images/6458a6db645ec6a527000cfa_home-hero-p-1600.webp');
+}
+
+/* about me */
+main {
+  background-color: var(--clr-bg);
+}
+#about-me {
+  padding: 0 4rem;
+}
+
+#about-me__div-cols-wrapper {
+  border-bottom: 1px solid var(--clr-primary);
+  padding: 3rem 0;
+  display: flex;
+}
+
+.about-me__div-col1 {
+  width: 780px;
+  padding-right: 6rem;
+  border-right: 2px solid var(--clr-primary);
+}
+
+.about-me__div-col1 h2 {
+  font-size: 5.1225rem;
+  font-weight: 600;
+  line-height: 1em;
+  color: var(--clr-primary);
+  letter-spacing: -2px;
+}
+
+.about-me__div-col2 {
+  padding-left: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.about-me__div-col2 h3 {
+  color: var(--clr-primary);
+  font-size: 1.7075rem;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+}
+
+.about-me__div-col2-socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.about-me__div-col2-socials i {
+  background-color: var(--clr-primary);
+  color: var(--clr-bg);
+  font-size: 1.5rem;
+  padding: 0.7rem;
+  border-radius: 500px;
+  cursor: pointer;
 }
