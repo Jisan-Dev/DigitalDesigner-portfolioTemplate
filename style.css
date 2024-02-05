@@ -124,7 +124,8 @@ main {
 }
 
 .about-me__div-col1 {
-  width: 780px;
+  width: 64%;
+  max-width: 1000px;
   padding-right: 6rem;
   border-right: 2px solid var(--clr-primary);
 }
