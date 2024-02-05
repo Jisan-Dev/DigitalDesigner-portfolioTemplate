@@ -26,6 +26,45 @@ body {
   background-color: #f5f3ef;
 }
 
+#header > nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  position: fixed;
+  width: calc(100% - 6rem);
+  top: 2rem;
+}
+
+#header > nav > #header__cart-btn {
+  background-color: var(--clr-primary);
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #f5f3ef;
+  width: 56px;
+  height: 56px;
+  text-align: center;
+  border: 2px solid var(--clr-primary);
+  border-radius: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#header__menu-btn {
+  padding: 1rem 1.5rem;
+  background-color: var(--clr-primary);
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #f5f3ef;
+  text-align: center;
+  border: 2px solid var(--clr-primary);
+  border-radius: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 #header__intro h1 {
   font-size: 136.6px;
   font-weight: 600;
