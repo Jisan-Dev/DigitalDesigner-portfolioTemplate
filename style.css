@@ -216,6 +216,12 @@ main {
 .whatIdo__col2 > div:nth-child(1) {
   padding-right: 1rem;
 }
+.whatIdo__col2 > div:nth-child(5) {
+  padding-right: 1rem;
+}
+.whatIdo__col2 > div:nth-child(7) {
+  padding-left: 1rem;
+}
 
 .whatIdo__col2 h2 {
   font-size: 2.5612rem;
