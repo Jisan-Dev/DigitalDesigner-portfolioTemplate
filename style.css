@@ -207,21 +207,21 @@ main {
 .whatIdo__col2 {
   display: grid;
   grid-template-rows: auto 2px auto;
-  row-gap: 2.5rem;
+  row-gap: 4rem;
   padding-left: 3rem;
 }
 
 .whatIdo__col2 > div:nth-child(3) {
-  padding-left: 4rem;
+  padding-left: 3.5rem;
 }
 .whatIdo__col2 > div:nth-child(1) {
-  padding-right: 4rem;
+  padding-right: 3.5rem;
 }
 .whatIdo__col2 > div:nth-child(5) {
-  padding-right: 4rem;
+  padding-right: 3.5rem;
 }
 .whatIdo__col2 > div:nth-child(7) {
-  padding-left: 4rem;
+  padding-left: 3.5rem;
 }
 
 .whatIdo__col2 h2 {
