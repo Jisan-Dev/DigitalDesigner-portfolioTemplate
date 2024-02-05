@@ -1,3 +1,10 @@
+/* google fonts - inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+:root {
+  --clr-primary: #1e1e21;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -7,4 +14,35 @@ html,
 body {
   width: 100%;
   height: 100%;
+  font-family: 'Inter', sans-serif;
+}
+
+/* header */
+#header {
+  width: 100%;
+  /* height: 50%; */
+  /* border: 1px solid red; */
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+#header__intro {
+  padding-top: 4rem;
+}
+
+#header__intro h1 {
+  font-size: 136.6px;
+  font-weight: 600;
+  line-height: 1em;
+  color: var(--clr-primary);
+  letter-spacing: -7px;
+  margin-bottom: 1rem;
+}
+
+#header__intro h3 {
+  font-size: 1.7075rem;
+  color: var(--clr-primary);
+  font-weight: 600;
+  letter-spacing: -0.5px;
+  line-height: 1.2em;
 }
