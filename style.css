@@ -166,3 +166,25 @@ main {
   border-radius: 500px;
   cursor: pointer;
 }
+
+/* what i do section */
+#whatIdo {
+  padding: 3rem 4rem 5px;
+}
+
+#whatIdo__inner-wrap {
+  border-bottom: 1px solid var(--clr-primary);
+  padding-bottom: 3rem;
+}
+
+.whatIdo__col1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.whatIdo__col1 h3 {
+  color: var(--clr-primary);
+  font-size: 1.7075rem;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+}
