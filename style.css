@@ -206,22 +206,22 @@ main {
 
 .whatIdo__col2 {
   display: grid;
-  grid-template-rows: 1fr 2px 1fr;
-  row-gap: 1.5rem;
-  padding-left: 1.5rem;
+  grid-template-rows: auto 2px auto;
+  row-gap: 2.5rem;
+  padding-left: 3rem;
 }
 
 .whatIdo__col2 > div:nth-child(3) {
-  padding-left: 1rem;
+  padding-left: 4rem;
 }
 .whatIdo__col2 > div:nth-child(1) {
-  padding-right: 1rem;
+  padding-right: 4rem;
 }
 .whatIdo__col2 > div:nth-child(5) {
-  padding-right: 1rem;
+  padding-right: 4rem;
 }
 .whatIdo__col2 > div:nth-child(7) {
-  padding-left: 1rem;
+  padding-left: 4rem;
 }
 
 .whatIdo__col2 h2 {
