@@ -180,6 +180,9 @@ main {
 .whatIdo__col1 {
   display: flex;
   justify-content: space-between;
+  width: 420px;
+  border-right: 2px solid var(--clr-primary);
+  padding-right: 1rem;
 }
 
 .whatIdo__col1 h3 {
@@ -187,4 +190,10 @@ main {
   font-size: 1.7075rem;
   font-weight: 600;
   letter-spacing: -0.5px;
+}
+
+.whatIdo__col1 i {
+  font-size: 1.7075rem;
+  color: var(--clr-primary);
+  font-weight: 100;
 }
