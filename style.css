@@ -22,12 +22,8 @@ body {
   width: 100%;
   /* height: 50%; */
   /* border: 1px solid red; */
-  padding-left: 4rem;
-  padding-right: 4rem;
-}
-
-#header__intro {
-  padding-top: 4rem;
+  padding: 4rem;
+  background-color: #f5f3ef;
 }
 
 #header__intro h1 {
@@ -39,10 +35,30 @@ body {
   margin-bottom: 1rem;
 }
 
-#header__intro h3 {
-  font-size: 1.7075rem;
+#header__intro-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   color: var(--clr-primary);
+}
+
+#header__intro-footer h3 {
+  font-size: 1.7075rem;
   font-weight: 600;
   letter-spacing: -0.5px;
-  line-height: 1.2em;
+}
+
+#header__intro-footer > span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.7075rem;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+  gap: 0.5rem;
+}
+
+#header__intro-footer > span > i {
+  font-size: 1em;
+  font-weight: 100;
 }
